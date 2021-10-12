@@ -1,0 +1,110 @@
+* {
+	font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+	background-color: #E5E5E5;
+}
+
+table {
+    margin: 3vh auto;
+    text-align: center;
+    width: 70%;
+    font-size: 1.2vw;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+td {
+    padding: 5px;
+}
+
+.wrapper {
+	max-width: 70%;
+	margin: 5% auto;
+	width: 100%;
+	text-align: center;
+    padding: 40px;
+    background-image: url('../images/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+	height: 70%;
+    border-radius: 25px;
+    border: 2px solid black;
+}
+
+.scoreWrap {
+    float: left;
+}
+.timeWrap {
+    float: right;
+}
+
+.outerWrap:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.bg {
+	background-color: #04AF71;
+}
+
+.button-home {
+    margin-top: 25px;
+}
+
+button {
+    border: none;
+    background-color: #333333;
+    box-shadow: 0px 5px 0px 0px #888888;
+    border-radius: 25px;
+    font-size: 1.1vw;
+    font-weight: bold;
+    margin: 15px;
+    padding: 10px;
+    color: #ffffff;
+    cursor: pointer;
+    width: 20%
+}
+
+button:active {
+    transform: translate(0px, 5px);
+    -webkit-transform: translate(0px, 5px);
+    box-shadow: 0px 1px 0px 0px;
+}
+
+img {
+    width: auto;
+    height: auto;
+    max-width: 12vw;
+}
+
+.tutorial-img img {
+    margin-top: 20px;
+    max-width: 20vw;
+}
+
+.scoreWrap, .timeWrap {
+    background-color: #FFFFFF;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 1.3vw;
+    margin-top: 1vh;
+    padding: 0.5vw;
+    color: #111111;
+}
+
+.words span {
+    font-size: 3.5vw;
+    letter-spacing: 1px;
+    color: #111111;
+}
+
+
+
+
+
+
+
+

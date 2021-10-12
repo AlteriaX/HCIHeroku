@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Game - Type Challenge</title>
+        <link rel="stylesheet" href="./css/main.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <audio id="sound" autoplay="autoplay" loop="loop">
+                <source src="./sound/music.opus">
+            </audio>
+            <h1>TYPE CHALLENGE</h1>
+            <button class="btn-start">START</button>
+            <button onclick="location.href='./index.html' ">BACK TO MENU</button>
+            <button class="btn-audio" onclick="toggleMute()">MUTE SONG</button>
+            <div class="outerWrap">
+                <div class="scoreWrap">
+                    <b>Words completed</b><br>
+                    <span class="score">0</span>
+                </div>
+                <div class="timeWrap">
+                    <b>Time left</b><br>
+                    <span class="time">10</span>
+                </div>
+            </div>
+            <div class="wordsWrap">
+                <p class="words"></p>
+            </div>
+            <div class="pictureWrap">
+                <p class="picture"></p>
+            </div>
+        </div>
+        <script src="./js/script.js"></script>
+        <script src="./js/mute.js"></script>
+        <script>
+          var sound = document.getElementById("sound");
+          sound.volume = 0.5;
+        </script>
+    </body>
+</html>
